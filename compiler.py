@@ -166,3 +166,4 @@ os.system(f"gcc -o {asm_filepath[:-4] + '.exe'} {asm_filepath[:-3]+'o'}")
 
 print("[CMD] Running")
 os.system(f"{asm_filepath[:-4] + '.exe'}")
+
