@@ -5,7 +5,7 @@ default rel
 section .bss
 ;--- constants --- 
 section .data
-string_literal_0: db "Hello guys", 0
+string_literal_0: db "Hello World", 0
 ;--- Entry Point --- 
 section .text
 global main

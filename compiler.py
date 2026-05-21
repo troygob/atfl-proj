@@ -107,7 +107,7 @@ while ip< len(program):
     ip += 1
 
     if opcode.endswith(":"):
-        out.write(f" -- LabeL ---\n")
+        out.write(f"; -- Label ---\n")
         out.write(f"{opcode}\n")
     elif opcode == "PUSH":
         number = program[ip]
